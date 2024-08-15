@@ -9,7 +9,7 @@ mesh:
 # estimated elevation angle for input image 
 elevation: 0
 # reference image resolution
-ref_size: 256
+ref_size: 1000
 # density thresh for mesh extraction
 density_thresh: 1
 
@@ -33,11 +33,11 @@ warmup_rgb_loss: False
 # training batch size per iter
 batch_size: 1
 # training iterations for stage 1
-iters: 500
+iters: 2500
 # whether to linearly anneal timestep
 anneal_timestep: True
 # training iterations for stage 2
-iters_refine: 50
+iters_refine: 250
 # training camera radius
 radius: 2
 # training camera fovy
