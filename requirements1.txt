@@ -18,7 +18,7 @@ einops
 plyfile
 pygltflib
 torchvision
-
+xformers==0.0.18
 # for gui
 dearpygui
 
