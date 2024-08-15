@@ -33,11 +33,11 @@ warmup_rgb_loss: True
 # training batch size per iter
 batch_size: 1
 # training iterations for stage 1
-iters: 2500           
+iters: 500           
 # whether to linearly anneal timestep
 anneal_timestep: True
 # training iterations for stage 2
-iters_refine: 250
+iters_refine: 50
 # training camera radius
 radius: 2
 # training camera fovy
