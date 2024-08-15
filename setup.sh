@@ -19,4 +19,4 @@ pip install git+https://github.com/bytedance/MVDream
 # To use ImageDream, also install:
 pip install git+https://github.com/bytedance/ImageDream/#subdirectory=extern/ImageDream
 
-sudo apt-get install -y mesa-common-dev libglu1-mesa-dev libgmp-dev libcgal-dev libboost-all-dev libgl1-mesa-glx                            
+sudo apt-get install -y mesa-common-dev libglu1-mesa-dev libgmp-dev libcgal-dev libboost-all-dev libgl1-mesa-glx                                
