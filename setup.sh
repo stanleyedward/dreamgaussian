@@ -13,10 +13,12 @@ conda create -y -n meshdream python=3.10
 conda activate dg
 
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
-pip install xformers==0.0.12
+# pip install xformers==0.0.12
 pip install -r requirements.txt
 # conda install -y libffi==3.3            
 
+# pip install xformers==0.0.18
+pip install xformers==0.0.23 # for torch 2.1.0 cu12.1   
 # a modified gaussian splatting (+ depth, alpha rendering)
 git clone --recursive https://github.com/ashawkey/diff-gaussian-rasterization
 pip install ./diff-gaussian-rasterization
